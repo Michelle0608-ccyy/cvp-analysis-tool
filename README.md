@@ -15,21 +15,27 @@ Users can customize core business parameters through the sidebar, and the tool w
 5.  **Full-cycle Detailed Data Table**: Output a complete data table of revenue, cost and profit under different sales volumes, supporting full data traceability.
 6.  **Intelligent Analysis & Strategic Recommendation**: Automatically judge business status based on input parameters, and output targeted, actionable strategic optimization recommendations.
 
-##  How to Run the Application
+## How to Run the Application
 
 ### Prerequisites
 Please make sure you have Python 3.8 or above installed on your device.
 
 ### Method 1: Run with requirements.txt (Recommended)
-1.  Clone or download this repository to your local device
-2.  Open the terminal in the project folder, run the following command to install all required dependencies:
-    ```bash
-    pip install -r requirements.txt
-Run the application with the following command:
+1. Clone or download this repository to your local device
+2. Open the terminal (CMD) in the project folder, run the following command to install all required dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Run the application with the following command:
 ```bash
 streamlit run app.py
 ```
+If you encounter a command error on Windows, use this compatible command instead:
+```bash
+python -m streamlit run app.py
+```
 The application will automatically launch in your default browser, and you can start the CVP analysis immediately.
+
 ### Method 2: Install dependencies manually
 If the first method fails, you can install the required libraries one by one with the following commands:
 ```bash
@@ -38,7 +44,12 @@ pip install pandas
 pip install numpy
 pip install matplotlib
 ```
-Then repeat step 3 in Method 1 to run the application.
+Then run the application:
+```bash
+streamlit run app.py
+# Windows compatible command
+# python -m streamlit run app.py
+```
 ## Data Sources
 The 2023-2025 industry average financial indicators built in this tool are for academic assignment demonstration only, and the data sources are:
 
