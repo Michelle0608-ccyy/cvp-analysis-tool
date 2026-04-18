@@ -29,6 +29,8 @@ pip install -r requirements.txt
 3. Run the application with the following command:
 ```bash
 streamlit run app.py
+# For Windows users (if command error occurs):
+# python -m streamlit run app.py
 ```
 If you encounter a command error on Windows, use this compatible command instead:
 ```bash
