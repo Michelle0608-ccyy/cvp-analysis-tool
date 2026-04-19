@@ -26,7 +26,10 @@ Visit the project repository at https://github.com/Michelle0608-ccyy/cvp-analysi
 ### Step 2: Extract and Prepare the Folder
 Extract the downloaded ZIP file. A folder named cvp-analysis-tool will be created automatically. Move this folder to your Desktop for easy access.
 
-### Step 3: Open the Command Line in the Project Folder
+### Step 3: 
+Open the terminal (CMD) in the project folder, run the following command to install all required dependencies:
+
+### Step4: Open the Command Line in the Project Folder
 Choose one of the following methods to open Command Prompt directly in the project folder:
 #### Method 1 (Using commands):
 Open Command Prompt, then run these two commands in sequence:
