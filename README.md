@@ -68,7 +68,7 @@ The 2023-2025 industry average financial indicators built in this tool are for a
 
 Yahoo Finance Global Industry Financial Database (2023-2025): https://finance.yahoo.com/industries
 
-National Bureau of Statistics of China Open Government Data (2023-2025): https://www.stats.gov.cn/tjsj/tjbz/
+National Bureau of Statistics of China Open Government Data (2023-2025): https://www.stats.gov.cn/english
 
 All data are real industry statistics, traceable through the above official channels.
 
