@@ -52,10 +52,9 @@ pip install pandas
 pip install numpy
 pip install matplotlib
 ```
-or
+or choose this approach below, which can achieve the installation of all the above libraries at one time.
 ```bash
 pip install streamlit pandas numpy matplotlib
-# This method can achieve the installation of all the above libraries at one time.
 ```
 Then run the application:
 ```bash
