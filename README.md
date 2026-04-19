@@ -2,7 +2,7 @@
 
 ##  Project Introduction
 
-This is an interactive web application developed for the managerial accounting course assignment, built with the Streamlit framework. The tool is designed to automate Cost-Volume-Profit (CVP) analysis, a core management accounting method for corporate profit forecasting, break-even point calculation, cost structure optimization, and supporting business making decisions.
+This is an interactive web application developed for the managment accounting, built with the Streamlit framework. The tool is designed to automate Cost-Volume-Profit (CVP) analysis, a core management accounting method for corporate profit forecasting, break-even point calculation, cost structure optimization, and supporting business making decisions.
 
 Users can input core business parameters by themselves through the sidebar, and the tool will automatically complete the calculation of key indicators, visual chart plotting, industry benchmark comparison, and targeted strategic recommendation output. It helps users quickly complete professional CVP analysis without complex manual formula operations.
 
