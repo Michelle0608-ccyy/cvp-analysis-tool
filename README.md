@@ -2,18 +2,18 @@
 
 ##  Project Introduction
 
-This is an interactive web application developed for the managerial accounting course assignment, built with the **Streamlit** framework. The tool is designed to automate full-process Cost-Volume-Profit (CVP) analysis, a core management accounting method for corporate profit forecasting, break-even point calculation, cost structure optimization, and business decision-making.
+This is an interactive web application developed for the managerial accounting course assignment, built with the Streamlit framework. The tool is designed to automate Cost-Volume-Profit (CVP) analysis, a core management accounting method for corporate profit forecasting, break-even point calculation, cost structure optimization, and supporting business making decisions.
 
-Users can customize core business parameters through the sidebar, and the tool will automatically complete the calculation of key indicators, visual chart rendering, industry benchmark comparison, and targeted strategic recommendation output. It helps users quickly complete professional CVP analysis without complex manual formula operations.
+Users can input core business parameters by themselves through the sidebar, and the tool will automatically complete the calculation of key indicators, visual chart plotting, industry benchmark comparison, and targeted strategic recommendation output. It helps users quickly complete professional CVP analysis without complex manual formula operations.
 
 ##  Core Features
 
 1.  **Customizable Parameter Input**: Sidebar interactive input for core business parameters, including Fixed Cost (FC), Selling Price per Unit (SP), Variable Cost per Unit (VC), and sales volume range setting.
-2.  **Fully Automatic CVP Core Calculation**: Real-time calculation of unit contribution margin, contribution margin ratio, break-even sales volume, break-even revenue, and other core CVP indicators.
-3.  **Industry Benchmark Comparison Module**: Built-in 2023-2025 full-cycle industry average financial indicators, covering Manufacturing, Service Industry and Technology Industry, supporting one-click comparison between corporate indicators and industry benchmarks.
-4.  **Professional Visual Analysis Chart**: Automatically generate a standard CVP analysis chart, including total revenue line, total cost line, fixed cost line, break-even point mark, profit & loss area filling, and dynamic industry benchmark reference line.
-5.  **Full-cycle Detailed Data Table**: Output a complete data table of revenue, cost and profit under different sales volumes, supporting full data traceability.
-6.  **Intelligent Analysis & Strategic Recommendation**: Automatically judge business status based on input parameters, and output targeted, actionable strategic optimization recommendations.
+2.  **Fully Automatic CVP Core Calculation**: Calculation of unit contribution margin in real time, contribution margin ratio, break-even sales volume, break-even revenue, and other core CVP indicators.
+3.  **Industry Benchmark Comparison Module**: Industry average financial indicators from 2023 to 2025, covering Manufacturing, Service Industry and Technology Industry, supporting comparison between corporate indicators and industry benchmarks.
+4.  **Professional Visual Analysis Chart**: Automatically generate a standard CVP analysis chart, including total revenue line, total cost line, fixed cost line, break-even point mark, profit and loss area filling, and dynamic industry benchmark reference line.
+5.  **Detailed Data Table**: Output a complete data table of revenue, cost and profit under different sales volumes, supporting full data traceability.
+6.  **Intelligent Analysis and Strategic Recommendation**: Automatically judge business status based on input parameters, and output targeted, actionable strategic optimization recommendations.
 
 ## How to Run the Application
 
