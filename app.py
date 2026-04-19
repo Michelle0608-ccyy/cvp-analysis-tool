@@ -262,7 +262,7 @@ st.markdown("---")
 st.caption(f"""
  **Data Source Statement**:
 1. 2023-2025 Industry Average Metrics: Sourced from 【Yahoo Finance】Global Industry Financial Database (https://finance.yahoo.com/industries)
-2. 2023-2025 China Manufacturing Cost Structure: Sourced from 【National Bureau of Statistics of China】Open Government Data Platform (https://www.stats.gov.cn/tjsj/tjbz/)
+2. 2023-2025 China Manufacturing Cost Structure: Sourced from 【National Bureau of Statistics of China】Open Government Data Platform (https://www.stats.gov.cn/english)
 3. All data are authentic 2023-2025 industry statistics, fully traceable via the official links above.
 4. All public data in this tool uses compliant authorized sources and meets international data usage standards.
 """)
