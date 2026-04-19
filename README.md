@@ -20,23 +20,33 @@ Users can input core business parameters by themselves through the sidebar, and 
 ### Prerequisites
 Please make sure you have Python 3.8 or above installed on your device.
 
-### Method 1: Run with requirements.txt (Recommended)
-1. Clone or download this repository to your local device
-2. Open the terminal (CMD) in the project folder, run the following command to install all required dependencies:
+### Step 1: Download the Project from GitHub
+Visit the project repository at https://github.com/Michelle0608-ccyy/cvp-analysis-tool. Click the green "Code" button, then select "Download ZIP" to save the compressed file to your computer.
+
+### Step 2: Extract and Prepare the Folder
+Extract the downloaded ZIP file. A folder named cvp-analysis-tool will be created automatically. Move this folder to your Desktop for easy access.
+
+### Step 3: Open the Command Line in the Project Folder
+Choose one of the following methods to open Command Prompt directly in the project folder:
+#### Method 1 (Using commands):
+Open Command Prompt, then run these two commands in sequence:
 ```bash
 cd Desktop
 ```
 ```bash
 cd cvp-analysis-tool
 ```
+#### Method 2 (Faster option):
+Open the cvp-analysis-tool folder on your Desktop, type cmd in the address bar at the top of the window, then press Enter. This will launch Command Prompt already located in the project folder.
+
+### Step4: Install Dependencies and Launch the Application
+First, install all required libraries using the included requirements.txt file:
 ```bash
 pip install -r requirements.txt
 ```
 3. Run the application with the following command:
 ```bash
 streamlit run app.py
-# For Windows users (if command error occurs):
-# python -m streamlit run app.py
 ```
 If you encounter a command error on Windows, use this compatible command instead:
 ```bash
@@ -44,8 +54,7 @@ python -m streamlit run app.py
 ```
 The application will automatically launch in your default browser, and you can start the CVP analysis immediately.
 
-### Method 2: Install dependencies manually
-If the first method fails, you can install the required libraries one by one with the following commands:
+In step 4, if the first method fails, you can install the required libraries one by one with the following commands:
 ```bash
 pip install streamlit
 pip install pandas
