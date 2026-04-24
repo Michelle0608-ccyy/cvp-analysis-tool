@@ -97,7 +97,9 @@ Open Windows Command Prompt (press Win + R, enter cmd, press Enter)
 Run the following commands in sequence (replace the folder path with your actual file path):
 ```bash
 cd Desktop
-cd your-project-folder-name
+```
+```bash
+cd C:\Users\10675\Desktop\E-commerce_analysis
 ```
 #### Method 2 (Faster option for Windows):
 Open your project folder in File Explorer
