@@ -1,53 +1,128 @@
-#  CVP (Cost-Volume-Profit) Analysis Tool
+# E-commerce Interactive Data Analysis Dashboard
+## Project Introduction
+This is a professional, interactive web-based data analysis application developed for business and accounting analytics, built with the Python Streamlit framework. The tool is designed for end-to-end e-commerce retail data analysis, a core business scenario for management accounting, sales performance evaluation, customer behavior analysis, and operational decision-making.
 
-##  Project Introduction
+The application addresses the practical pain point of non-technical business users needing to complete professional data analysis without complex manual formula operations or advanced coding skills. Users can flexibly filter business dimensions through the sidebar interactive controls, and the tool will automatically complete data cleaning, multi-table merging, indicator calculation, professional visualization, and real-time dynamic insight generation. It helps retail business analysts, marketing managers, operations teams, and accounting students quickly complete full-dimensional e-commerce business analysis and output actionable, data-driven decision suggestions.
 
-This is an interactive web application developed for the managment accounting, built with the Streamlit framework. The tool is designed to automate Cost-Volume-Profit (CVP) analysis, a core management accounting method for corporate profit forecasting, break-even point calculation, cost structure optimization, and supporting business making decisions.
+## Core Features
+### 1. Multi-dimensional Interactive Filter System
+The sidebar provides full-coverage interactive filter controls, supporting real-time data filtering and dynamic result refresh:
+Date range filter (customizable start and end date of the analysis period)
+Customer dimension filters: country/region, gender, membership tier
+Product dimension filters: product category, minimum product rating
+All filters are linked, and charts & insights will update automatically after filter adjustment
+### 2. Full-cycle E-commerce Data Analysis Module
+Covers 8 core business analysis scenarios, with complete analytical logic for the full e-commerce operation cycle:
 
-Users can input core business parameters by themselves through the sidebar, and the tool will automatically complete the calculation of key indicators, visual chart plotting, industry benchmark comparison, and targeted strategic recommendation output. It helps users quickly complete professional CVP analysis without complex manual formula operations.
+(1) Monthly Revenue & Order Volume Trend Analysis
 
-##  Core Features
+(2) Product Category Sales Performance & Concentration Analysis
 
-1.  **Customizable Parameter Input**: Sidebar interactive input for core business parameters, including Fixed Cost (FC), Selling Price per Unit (SP), Variable Cost per Unit (VC), and sales volume range setting.
-2.  **Fully Automatic CVP Core Calculation**: Calculation of unit contribution margin in real time, contribution margin ratio, break-even sales volume, break-even revenue, and other core CVP indicators.
-3.  **Industry Benchmark Comparison Module**: Industry average financial indicators from 2023 to 2025, covering Manufacturing, Service Industry and Technology Industry, supporting comparison between corporate indicators and industry benchmarks.
-4.  **Professional Visual Analysis Chart**: Automatically generate a standard CVP analysis chart, including total revenue line, total cost line, fixed cost line, break-even point mark, profit and loss area filling, and dynamic industry benchmark reference line.
-5.  **Detailed Data Table**: Output a complete data table of revenue, cost and profit under different sales volumes, supporting full data traceability.
-6.  **Intelligent Analysis and Strategic Recommendation**: Automatically judge business status based on input parameters, and output targeted, actionable strategic optimization recommendations.
+(3) Customer Geographic Distribution & Market Concentration Analysis
 
+(4) Product Rating vs. Sales Volume Correlation Analysis
+
+(5) Customer Gender & Membership Tier Spending Behavior Analysis
+
+(6) Order Status Distribution & Operational Risk Assessment
+
+(7) Customer Age Group vs. Average Order Value Analysis
+
+(8) Top 10 Best-selling Products Performance Analysis
+### 3. Real-time Dynamic Business Insights
+The core highlight of the tool: each analysis module is equipped with an intelligent insight engine, which automatically generates targeted analysis conclusions and operational suggestions based on the filtered data, rather than fixed template text:
+
+(1) Automatic calculation of core business indicators (total revenue, peak sales period, top-performing segments)
+
+(2) Quantitative risk assessment (market concentration risk, product dependency risk, high cancellation rate warning)
+
+(3) Correlation analysis (rating vs. sales, age vs. spending, order volume vs. revenue)
+
+(4) Actionable operational optimization suggestions for the current data performance
+### 4. Professional Business-level Data Visualization
+Built with matplotlib, the tool generates standard, publication-ready business charts that meet commercial report specifications:
+
+(1) Dual-axis line & bar chart for monthly revenue and order volume comparison
+
+(2) Bar chart for category sales and customer geographic distribution
+
+(3) Pie chart for order status proportion analysis
+
+(4) Scatter plot for product rating vs. sales correlation analysis
+
+(5) Line chart for age group vs. average order value trend analysis
+
+(6) Horizontal bar chart for top 10 product sales ranking
+### 5. One-click Filtered Data Export
+Supports one-click export of the filtered full dataset to a local CSV file, which enables users to:
+
+(1) Perform further custom deep analysis
+
+(2) Generate business reports and presentation materials
+
+(3) Keep full traceability of the analysis data and process
+### 6. Auto Data Cleaning & Multi-table Integration
+The application has built-in automatic data preprocessing logic, which is out-of-the-box for users:
+
+(1) Automatic identification of key column names in the dataset, compatible with different naming conventions
+
+(2) Automatic missing value processing and data type standardization
+
+(3) Automatic merging of 4 core datasets (customer, order, product, monthly revenue)
+
+(4) Standardized data structure for consistent analysis logic
 ## How to Run the Application
-
 ### Prerequisites
-Please make sure you have Python 3.8 or above installed on your device.
+Please ensure you have Python 3.8 or above installed on your device. You can check your Python version by running python --version in the command prompt.
+### Step 1: Prepare the Project Files
+Put all the following files in the same folder on your device (do not modify the file names):
 
-### Step 1: Download the Project from GitHub
-Visit the project repository at https://github.com/Michelle0608-ccyy/cvp-analysis-tool. Click the green "Code" button, then select "Download ZIP" to save the compressed file to your computer.
+app.py (core application code)
 
-### Step 2: Extract and Prepare the Folder
-Extract the downloaded ZIP file. A folder named cvp-analysis-tool will be created automatically. Move this folder to your Desktop for easy access.
+customers.csv (customer profile dataset)
 
-### Step 3: 
-Open the terminal (CMD) in the project folder, run the following command to install all required dependencies:
+orders.csv (order transaction dataset)
 
-### Step4: Open the Command Line in the Project Folder
-Choose one of the following methods to open Command Prompt directly in the project folder:
-#### Method 1 (Using commands):
-Open Command Prompt, then run these two commands in sequence:
+monthly_revenue.csv (monthly revenue dataset)
+
+product_summary.csv (product information dataset)
+
+requirements.txt (project dependency list)
+
+### Step 2: Open Command Line in the Project Folder
+Choose one of the following methods to open the Command Prompt (CMD) directly in your project folder:
+#### Method 1 (Using command lines):
+Open Windows Command Prompt (press Win + R, enter cmd, press Enter)
+
+Run the following commands in sequence (replace the folder path with your actual file path):
 ```bash
 cd Desktop
+cd your-project-folder-name
 ```
-```bash
-cd cvp-analysis-tool
-```
-#### Method 2 (Faster option):
-Open the cvp-analysis-tool folder on your Desktop, type cmd in the address bar at the top of the window, then press Enter. This will launch Command Prompt already located in the project folder.
+#### Method 2 (Faster option for Windows):
+Open your project folder in File Explorer
 
-### Step4: Install Dependencies and Launch the Application
-First, install all required libraries using the included requirements.txt file:
+Type cmd in the address bar at the top of the window, then press Enter
+
+The Command Prompt will launch directly, already located in your project folder
+### Step 3: Install Required Dependencies
+First, install all required Python libraries using the included requirements.txt file:
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the application with the following command:
+If the above command fails, you can install the libraries one by one with the following commands:
+```bash
+pip install streamlit
+pip install pandas
+pip install matplotlib
+pip install numpy
+```
+Or install all libraries in one command:
+```bash
+pip install streamlit pandas matplotlib numpy
+```
+### Step 4: Launch the Application
+Run the application with the following command:
 ```bash
 streamlit run app.py
 ```
@@ -55,44 +130,28 @@ If you encounter a command error on Windows, use this compatible command instead
 ```bash
 python -m streamlit run app.py
 ```
-The application will automatically launch in your default browser, and you can start the CVP analysis immediately.
-
-In step 4, if the first method fails, you can install the required libraries one by one with the following commands:
-```bash
-pip install streamlit
-pip install pandas
-pip install numpy
-pip install matplotlib
-```
-or choose this approach below, which can achieve the installation of all the above libraries at one time.
-```bash
-pip install streamlit pandas numpy matplotlib
-```
-Then run the application:
-```bash
-streamlit run app.py
-# Windows compatible command
-# python -m streamlit run app.py
-```
+### Step 5: Start Your Analysis
+The application will automatically launch in your default browser. You can now adjust the filters, switch between analysis charts, view dynamic insights, and complete your e-commerce data analysis.
 ## Data Sources
-The 2023-2025 industry average financial indicators built in this tool are for academic assignment demonstration only, and the data sources are:
+The datasets used in this application are publicly available retail e-commerce datasets downloaded from Kaggle, accessed in April 2026. The dataset includes 4 core tables covering customer profile, order transaction, product information, and monthly revenue data.
 
-Yahoo Finance Global Industry Financial Database (2023-2025): https://finance.yahoo.com/industries
+The original dataset source and access information are as follows:
 
-National Bureau of Statistics of China Open Government Data (2023-2025): https://www.stats.gov.cn/english
+Platform: Kaggle (https://www.kaggle.com)
 
-All data are real industry statistics, traceable through the above official channels.
+Access Date: April 2026
 
-## Project File Structure
+Dataset Type: Retail e-commerce transactional and customer data
+
+All analysis logic and results are for academic assignment purposes only, and the use of the dataset complies with Kaggle's terms of use for educational and non-commercial research.
+#### Project File Structure
 ```bash
-cvp-analysis-tool/
-├── app.py                 # Core code of the CVP analysis application, including all calculation logic and page design
-├── requirements.txt       # Dependency library list of the project
-└── README.md              # Project description document (this file)
+e-commerce_analysis_tool
+├── app.py                          # Core application code, including all analysis logic, interactive UI, visualization, and dynamic insight engine
+├── customers.csv                   # Customer profile dataset (demographics, membership tier, geographic region, etc.)
+├── orders.csv                      # Order transaction dataset (order ID, date, amount, product, status, customer ID, etc.)
+├── monthly_revenue.csv             # Monthly aggregated revenue and profit dataset
+├── product_summary.csv             # Product information dataset (product name, category, rating, price, etc.)
+├── requirements.txt                # Project dependency library list
+└── README.md                       # Project description, operation guide, and academic declaration (this file)
 ```
-## Author Information
-**Name**: Ziyou Liao
-
-**Student ID**: 2471574
-
-**Submission Date**: 23th, April 2026
